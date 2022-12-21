@@ -1,0 +1,25 @@
+{
+  "name": "ahj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "coursar",
+  "license": "ISC",
+  "dependencies": {
+    "coa": "^2.0.2",
+    "forever": "^4.0.3",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-static": "^5.0.0",
+    "moment": "^2.29.4",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
